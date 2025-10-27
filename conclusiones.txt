@@ -1,0 +1,7 @@
+Conclusiones 
+
+1. Las pruebas automatizadas implementadas con Karate permitieron verificar el correcto funcionamiento de los endpoints POST, GET y PUT.
+2. El codigo de estado HTTP para cada método es el esperado (200 OK para cada uno de los metodos).
+3. Se comprobó que cada respuesta incluye los campos esperados en el cuerpo JSON, lo que garantiza la integridad de los datos devueltos.
+4. Las pruebas POST generaron correctamente nuevos recursos, siendo estos reutilizados en las pruebas GET y PUT, asegurando la coherencia del flujo de los datos.
+5. Se valido que al momento de realizar las pruebas PUT, los datos de la mascota fueron modifcados correctamente, sin embargo, al momento de realizar la consulta findByStatus, se obtiene la totalidad de elementos con el estado de "sold", no solo el ultimo item modificado.
