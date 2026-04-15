@@ -1,32 +1,35 @@
-Ejercicio 2: Prueba de servicios api dentro de https://petstore.swagger.io/
+# Testing API services within petstore.swagger
 
-Este repositorio contiene el codigo desarrollado en Karate que cumple con los siguientes requerimientos:
+This repository contains code developed in Karate that meets the following requirements:
 
-La página https://petstore.swagger.io/ proporciona la documentación sobre apis de una “PetStore”. Utilizando un software para pruebas de servicios REST realizar las
-siguientes pruebas, identificando las entradas, capturando las salidas, test, variables, etc, en cada uno de los siguientes casos:
-1. Añadir una mascota a la tienda
-2. Consultar la mascota ingresada previamente (Búsqueda por ID)
-3. Actualizar el nombre de la mascota y el estatus de la mascota a “sold”
-4. Consultar la mascota modificada por estatus (Búsqueda por estatus)
+The page https://petstore.swagger.io/ provides documentation on the APIs of a “PetStore”. Using REST service testing software, perform the following tests, identifying inputs, capturing outputs, tests, variables, etc., in each of the following cases:
+* Add a pet to the store
+* Query the previously entered pet (Search by ID)
+* Update the pet’s name and status to “sold”
+* Query the pet modified by status (Search by status)
 
-Para la eleaboracion del proyecto se utiliza IntelliJ Idea Community Edition 2025.2.3, el JDK Oracle OpenJDK 21.0.8 y la version 3.9.11 de Maven.
+IntelliJ Idea Community Edition 2025.2.3, Oracle OpenJDK 21.0.8, and Maven version 3.9.11 are used to develop the project.
 
-Pasos para clonar el repositorio: En este caso se utiliza IntelliJ Idea Community Edition 2025.2.3 para clonar el repositorio desde Github.
+## Repository execution:
+In this case, IntelliJ IDEA Community Edition 2025.2.3 is used to clone the repository from GitHub.
 
-1. Ir a la opcion de Git->clone
-2. Copiar el link del repositorio en la opcion de url.
-3. Modificar la carpeta donde se clona el repositorio o simplemente dejar la opcion que entrega por defecto.
-4. Click en en el boton de Clone.
+* Go to Git -> Clone
+* Paste the repository link into the URL field.
+* Change the folder where the repository will be cloned, or simply leave the default setting.
+* Click the Clone button.
 
-Pasos para ejecutar el repositorio con Karate 
-1. Abrir una nueva terminal, View-> Tool Windows-> Terminal
-2. Abrir una nueva ventana de Command Prompt
+Steps to run the repository with Karate
+* Open a new terminal: View -> Tool Windows -> Terminal
+* Open a new Command Prompt window
    
    <img width="617" height="196" alt="image" src="https://github.com/user-attachments/assets/34418260-047c-4806-9a58-8c7c78e301c6" />
 
-3. Ejecutar el comando mvn clean test
-4. Abrir el reporte HTML generado.
+* Run the command `mvn clean test`
+* Open the generated HTML report.
    
    <img width="938" height="338" alt="image" src="https://github.com/user-attachments/assets/0dfcec80-4f7c-4fff-9ac5-9a0bc5a113a3" />
  
+## Author
+Yoniver Hoyos Muñoz
 
+Industrial Automation Engineer
